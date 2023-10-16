@@ -1,7 +1,7 @@
 import express from 'express';
 import cookieParser from 'cookie-parser';
 import jwt from 'jsonwebtoken';
-import authorization from './src/auth.js';
+import authorization from './src/controllers/auth.js';
 
 
 const app = express();
